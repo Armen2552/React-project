@@ -53,7 +53,7 @@ class Header extends Component{
             <p>{this.state.a}</p>
             <button onClick={this.chhange}>click</button> */}
             <button onClick={this.minus}>-</button>
-            <div className="block">{this.state.a}</div>
+            <div>{this.state.a}</div>
             <button onClick={this.plus}>+</button>
             <input type="text" onChange={this.gago}/>
             <p>{this.props.title}</p>
