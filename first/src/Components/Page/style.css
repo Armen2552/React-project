@@ -1,0 +1,33 @@
+.buttons{
+    width: 340px;
+    margin: 0 auto;
+}
+.buttons button{
+    padding: 10px 30px;
+    background-color: white;
+    color: #2F956D;
+    border: 1px solid #2F956D;
+    margin: 7px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #2F956D;
+    color: white;
+}
+.FoodActive{
+    background-color: #2F956D !important;
+    color: white !important;
+}
+.foods{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foods div{
+    width: 250px;
+    margin-top: 40px;
+}
+.foods div img{
+    width: 100%;
+}
